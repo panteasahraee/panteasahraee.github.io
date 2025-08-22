@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Pentea's Personal Webpage</title>
+
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"> -->
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/70f25e8f1c.js" crossorigin="anonymous"></script>
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Pantea Sahraee</span>
+      <span class="d-none d-lg-block">
+        <script pagespeed_no_defer="">
+          //<![CDATA[
+          (function() {
+            var g = this,
+              h = function(b, d) {
+                var a = b.split("."),
+                  c = g;
+                a[0] in c || !c.execScript || c.execScript("var " + a[0]);
+                for (var e; a.length && (e = a.shift());) a.length || void 0 === d ? c[e] ? c = c[e] : c = c[e] = {} : c[e] = d
+              };
+            var l = function(b) {
+              var d = b.length;
+              if (0 < d) {
+                for (var a = Array(d), c = 0; c < d; c++) a[c] = b[c];
+                return a
+              }
+              return []
+            };
+            var m = function(b) {
+              var d = window;
+              if (d.addEventListener) d.addEventListener("load", b, !1);
+              else if (d.attachEvent) d.attachEvent("onload", b);
+              else {
+                var a = d.onload;
+                d.onload = function() {
+                  b.call(this);
+                  a && a.call(this)
+                }
+              }
+            };
+            var n, p = function(b, d, a, c, e) {
+                this.f = b;
+                this.h = d;
+                this.i = a;
+                this.c = e;
+                this.e = {
+                  height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                  width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                };
+                this.g = c;
+                this.b = {};
+                this.a = [];
+                this.d = {}
+              },
+              q = function(b, d) {
+                var a, c, e = d.getAttribute("pagespeed_url_hash");
+                if (a = e && !(e in b.d))
+                  if (0 >= d.offsetWidth && 0 >= d.offsetHeight) a = !1;
+                  else {
+                    c = d.getBoundingClientRect();
+                    var f = document.body;
+                    a = c.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                    c = c.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                    f = a.toString() + "," + c;
+                    b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.e.height && c <= b.e.width)
+                  } a && (b.a.push(e), b.d[e] = !0)
+              };
+            p.prototype.checkImageForCriticality = function(b) {
+              b.getBoundingClientRect && q(this, b)
+            };
+            h("pagespeed.CriticalImages.checkImageForCriticality", function(b) {
+              n.checkImageForCriticality(b)
+            });
+            h("pagespeed.CriticalImages.checkCriticalImages", function() {
+              r(n)
+            });
+            var r = function(b) {
+                b.b = {};
+                for (var d = ["IMG", "INPUT"], a = [], c = 0; c < d.length; ++c) a = a.concat(l(document.getElementsByTagName(d[c])));
+                if (0 != a.length && a[0].getBoundingClientRect) {
+                  for (c = 0; d = a[c]; ++c) q(b, d);
+                  a = "oh=" + b.i;
+                  b.c && (a += "&n=" + b.c);
+                  if (d = 0 != b.a.length)
+                    for (a += "&ci=" + encodeURIComponent(b.a[0]), c = 1; c < b.a.length; ++c) {
+                      var e = "," + encodeURIComponent(b.a[c]);
+                      131072 >= a.length + e.length && (a += e)
+                    }
+                  b.g && (e = "&rd=" + encodeURIComponent(JSON.stringify(s())), 131072 >= a.length + e.length && (a += e), d = !0);
+                  t = a;
+                  if (d) {
+                    c = b.f;
+                    b = b.h;
+                    var f;
+                    if (window.XMLHttpRequest) f = new XMLHttpRequest;
+                    else if (window.ActiveXObject) try {
+                      f = new ActiveXObject("Msxml2.XMLHTTP")
+                    } catch (k) {
+                      try {
+                        f = new ActiveXObject("Microsoft.XMLHTTP")
+                      } catch (u) {}
+                    }
+                    f && (f.open("POST", c + (-1 == c.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                  }
+                }
+              },
+              s = function() {
+                var b = {},
+                  d = document.getElementsByTagName("IMG");
+                if (0 == d.length) return {};
+                var a = d[0];
+                if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                for (var c = 0; a = d[c]; ++c) {
+                  var e = a.getAttribute("pagespeed_url_hash");
+                  e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].k && a.height >= b[e].j) && (b[e] = {
+                    rw: a.width,
+                    rh: a.height,
+                    ow: a.naturalWidth,
+                    oh: a.naturalHeight
+                  })
+                }
+                return b
+              },
+              t = "";
+            h("pagespeed.CriticalImages.getBeaconData", function() {
+              return t
+            });
+            h("pagespeed.CriticalImages.Run", function(b, d, a, c, e, f) {
+              var k = new p(b, d, a, e, f);
+              n = k;
+              c && m(function() {
+                window.setTimeout(function() {
+                  r(k)
+                }, 0)
+              })
+            });
+          })();
+          pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', 'https://panteasahraee.github.io/', 'l8PuqRhht8', true, false, 'HvY0GKpzYBA');
+          //]]>
+        </script><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/Pantea.JPG" alt="" pagespeed_url_hash="3015044664" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#news">Latest NEWS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#Publication">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#Researching">Researching</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#Languages">Languages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#References">References</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Pantea
+          <span class="text-primary">Sahraee</span>
+        </h1>
+          <div class="subheading mb-5">Tehran, Iran\.
+                      (98) 9032239307 <br>
+          <a href="mailto:pantea.sahraee.10@gmail.com">pantea.sahraee.10@gmail.com</a>
+        </div>
+        <p class="lead"><strong>Hi.</strong></p>
+        <p class="lead mb-5">I am Pantea Sahraee. I am a researcher at the Renewable Energy Laboratory at the University of Tehran, Iran.
+          I received a <em>B.Sc.</em> degree in Energy Engineering from Qom University of Technology, Iran,
+          in 2023. I am broadly interested in Agrivoltaic Systems and Sustainable Energy, The Water-Energy-Food Nexus in Renewable Energy Planing,
+          and The Techno-economic Analysis if Renewable and Hybrid Energy Systems. Recently, I have been working on projects related to these areas.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/pantea-sahraee-7632331b1/">
+          <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/panteasahraee/">
+          <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="news">
+      <div class="w-100">
+        <!--- Include the above in your HEAD tag ---------->
+        <h2 class="mb-5">Latest News</h2>
+        <div class="container mt-5 mb-5 News-cont">
+          <div class="row">
+            <div class="col-md-8 offset-md-3 col-item">
+              <ul class="timeline">
+                <li>
+                  <p class="timeline float-right">Research Assistant, May 2025</p>
+                  <p>Joined the Renewable Energy Laboratory, University of Tehran.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+        <div class="d-flex justify-content-between mb-3">
+          <!-- Left: University name -->
+          <h3 class="mb-0">Qom University of Technology, Iran</h3>
+          <!-- Right: Date -->
+            <span class="text-primary">September 2018 – July 2023</span>
+        </div>
+         <div class="subheading mb-3">B.Sc. in Energy Engineering</div>
+         <ul>
+           <li>
+             Adviser: <a href="https://qut.ac.ir/en/mech/faculty-members/dean">Dr. Majid Mohammadi</a>
+           </li>
+           <li>
+            Project: Feasibility study on integrating solar energy into ammonia production, including economic modeling,
+            cost–benefit analysis, and energy efficiency evaluation using RETScreen in Bushehr, southern Iran.
+           </li>
+         </ul>
+
+      </div>
+    </section>
+
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Publication">
+      <div class="w-100">
+        <h2 class="mb-5">Publications</h2>
+        <ul>
+          <li><strong style="text-decoration: underline ">Pantea Sahraee</strong>, Arash Shahee, Mahmmod Abdoss, Rahim Zahedi, Hossein Yousefi "A Techno-Economic Analysis of Agrivoltaic Systems: A Case Study of the Varamin Plain". [In Preparation]</li>
+          <li>Aidin Shaghaghi, <strong style="text-decoration: underline ">Pantea Sahraee</strong>, Leila Niazi, Rahim Zahedi, Vahid Rezaee, Mohammad Tanohe "Techno-economic analysis and optimization of a new-designed energy system coupled with thermoelectric for cooling, heating, green energy and hydrogen production". [In Preparation]</li>
+          <li> Rahim Zahedi, <strong style="text-decoration: underline ">Pantea Sahraee</strong> "Optimal scheduling of a Grid-Connected Microgrid with Integrated Wind Power and Pumped Hydro Storage in a Frequency-Based Pricing Environment". [In Preparation]</li>
+          <li><strong style="text-decoration: underline ">P. Sahraee</strong>, B. Saghafi. "Designing Agrivoltaic Solar Energy Networks in Synergy with Urban Infrastructure ( Case Study:
+               Underutilized Spaces in the South of Karaj)". [In Preparation]</li>
+          <li>B. Saghafi, <strong style="text-decoration: underline ">P. Sahraee</strong>. "Feasibility Study of Utilizing Solar Energy Production Systems in Urban Public Spaces to Generate
+               Sustainable Revenue for Municipalities (Case Study: District 6 of Tehran)". [In Preparation]</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Energy Modelings And Simulations</div>
+        <ul>
+           <li>PVsyst, RETScreen.</li>
+        </ul>
+        </li>
+        </ul>
+        <div class="subheading mb-3">Programming Languages</div>
+        <ul>
+           <li>Python, R.</li>
+        </ul>
+        </li>
+        </ul>
+        <div class="subheading mb-3">Tools</div>
+        <ul>
+          <li><strong>Programming & Compilers:</strong> MATLAB & SIMULINK.</li>
+          <li><strong>Other:</strong> Latex.</li>
+        </ul>
+        <div class="subheading mb-3">Web Programming Languages</div>
+        <ul>
+          <li>HTML, CSS, JS.</li>
+        </ul>
+        <!-- <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+        </ul> -->
+      </div>
+    </section>
+
+    <!-- <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">...</h3>
+            <div class="subheading mb-3">...</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">...</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section> -->
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Researching">
+      <div class="w-100">
+        <h2 class="mb-5">Research Experience</h2>
+        <div class="d-flex justify-content-between mb-3">
+          <!-- Left: University name -->
+          <h3 class="mb-0">University of Tehran</h3>
+          <!-- Right: Date -->
+          <span class="text-primary">May 2025 - Present</span>
+        </div>
+        <div class="subheading mb-3">Research Assistant</div>
+        <ul>
+              <li> Conducting research on agrivoltaic systems to enhance land-use efficiency and integrate solar energy into agricultural practices, using PVsyst to simulate system.</li>
+              <li>Working on a Water-Energy-Food (WEF) Nexus study to assess the sustainability of solar-powered systems.</li>
+              <li>Performing techno-economic modeling and optimization of a novel hybrid energy system coupled with thermoelectric modules for green hydrogen production, heating, and cooling.</li>
+        </ul>
+        <div class="d-flex justify-content-between mb-3">
+          <!-- Left: University name -->
+          <h3 class="mb-0">Qom University of Technology</h3>
+          <!-- Right: Date -->
+          <span class="text-primary">Feb2023-Jun2023</span>
+         </div>
+         <div class="subheading mb-3">Undergraduate Researcher</div>
+         <ul>
+              <li>Conducted a feasibility study on integrating solar energy into ammonia production as a clean alternative to fossil-fuel-based methods.</li>
+              <li>Performed economic modeling, cost-benefit analysis, and energy efficiency evaluation using RETScreen.</li>
+         </ul>
+         <div class="d-flex justify-content-between mb-3">
+           <!-- Left: University name -->
+           <h3 class="mb-0">Materials and Energy Research Center (MERC)</h3>
+           <!-- Right: Date -->
+           <span class="text-primary">Jul2022-Oct2022</span>
+         </div>
+         <div class="subheading mb-3">Research Intern</div>
+         <ul>
+              <li>Conducted an economic feasibility study of a solar power plant using RETScree.</li>     
+         </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Languages">
+      <div class="w-100">
+        <h2 class="mb-3">Languages</h2>
+        <ul>
+          <li> English: Level B2</li>
+          <li> Persian: Native</li>
+          <li> German: Level B1</li>
+        </ul>
+      </div>
+    </section> 
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="References">
+      <div class="w-100">
+        <h2 class="mb-3">References</h2>
+        <ul>
+          <li>
+            Dr. Rahim Zahedi, Assistant Professor, University of Tehran<br>
+            Email: <a href="mailto:rahimzahedi@ut.ac.ir">rahimzahedi@ut.ac.ir</a>
+          </li>
+          <li>
+            Dr. Majid Mohammadi, Associate Professor(Dean), Qom University of Technology<br>
+            Email: <a href="mailto:m.mohammadi@qut.ac.ir">m.mohammadi@qut.ac.ir</a>
+          </li>
+          <li>
+            Dr. Saeed Rahgozar, Assistant Professor, Materials and Energy Research Center<br>
+            Email: <a href="mailto:s.rahgozar@merc.ac.ir">s.rahgozar@merc.ac.ir</a>
+          </li>
+        </ul>
+      </div>
+    </section> 
+
+    <hr class="m-0">
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- Plugin JavaScript -->
+  <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+
+  <!-- Custom scripts for this template -->
+  <!-- <script src="js/index.js"></script> -->
+
+</body>
+
+</html>
